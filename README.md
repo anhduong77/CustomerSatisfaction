@@ -1,5 +1,5 @@
 # CustomerSatisfaction
-# 📦 Olist Logistics Optimization: A Causal Inference Approach
+#  Olist Logistics Optimization: A Causal Inference Approach
 
 **Objective:** Isolate the true drivers of customer dissatisfaction in Brazilian E-Commerce to reduce churn.
 **Role:** Data Analyst / Causal Inference Specialist
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Executive Summary
+## Executive Summary
 In e-commerce, it is easy to confuse correlation with causation. Does a customer give a bad review because shipping was expensive, or because it was late?
 
 Using **Causal Inference** (to control for confounders like Price, Freight, and Distance), this project quantified the exact "Cost of Lateness."
@@ -19,7 +19,7 @@ Using **Causal Inference** (to control for confounders like Price, Freight, and 
 
 ---
 
-## 📊 Visual Insights
+##  Visual Insights
 *(Note: I recommend taking screenshots of your 2 best charts from the notebook and pasting them here!)*
 
 **1. The Heterogeneity Analysis (VIP vs. Budget)**
@@ -32,7 +32,7 @@ Using **Causal Inference** (to control for confounders like Price, Freight, and 
 
 ---
 
-## 💡 Strategic Recommendations
+##  Strategic Recommendations
 
 Based on the causal analysis, I proposed a 3-point action plan to stakeholders:
 
@@ -42,7 +42,7 @@ Based on the causal analysis, I proposed a 3-point action plan to stakeholders:
 
 ---
 
-## 📂 Project Structure & Workflow
+##  Project Structure & Workflow
 
 This repository is organized into 4 logical steps, mirroring the data pipeline:
 
@@ -55,10 +55,10 @@ This repository is organized into 4 logical steps, mirroring the data pipeline:
 
 ---
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 1. Clone this repo.
-2. Install requirements: `pip install dowhy seaborn pandas`
+2. Install requirements: `pip install seaborn pandas`
 3. Run the notebooks in order.
 
 ---
