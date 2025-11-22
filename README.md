@@ -55,7 +55,7 @@ This repository is organized into 4 logical steps, mirroring the data pipeline:
 | **1. Engineering** | `1.Engineering_data.ipynb` | **Data Extraction:** Complex SQL queries to join Orders, Payments, and Geolocation data, creating a unified analytical view. |
 | **2. EDA** | `2_EDA.ipynb` | **Exploratory Analysis:** Assessing data quality and identifying distribution errors. |
 | **3. Preparation** | `3_Cleaning_data_&&_feature_engineering.ipynb` | **Cleaning & Engineering:** Creating the "Treatment" (`is_late`) and "Confounders" (`distance_km`) required for the Causal Model. |
-| **4. Analysis** | `4_Casual_inference_&&_data_storytelling.ipynb` | **Modeling & Storytelling:** Running the `DoWhy` Causal Model, calculating ATE (Average Treatment Effect), and generating the final business insights. |
+| **4. Analysis** | `4_Casual_inference_&&_data_storytelling.ipynb` | **Modeling & Storytelling:** Running the `EconML` Causal Model, calculating ATE (Average Treatment Effect), and generating the final business insights. |
 
 ---
 
