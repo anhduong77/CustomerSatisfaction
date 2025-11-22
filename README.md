@@ -3,7 +3,7 @@
 
 **Objective:** Isolate the true drivers of customer dissatisfaction in Brazilian E-Commerce to reduce churn.
 **Role:** Data Analyst / Causal Inference Specialist
-**Tools:** Python (DoWhy, Pandas, Seaborn), SQL, CausalML
+**Tools:** Python (EconPandas, Seaborn), SQL, CausalML(EconML)
 
 ---
 
@@ -20,10 +20,11 @@ Using **Causal Inference** (to control for confounders like Price, Freight, and 
 ---
 
 ##  Visual Insights
-*(Note: I recommend taking screenshots of your 2 best charts from the notebook and pasting them here!)*
+
 
 **1. The Heterogeneity Analysis (VIP vs. Budget)**
-> *[Insert your Bar Chart showing flat sensitivity across tiers]*
+> <img width="846" height="548" alt="Untitled" src="https://github.com/user-attachments/assets/cdeedac2-ea18-4f55-a5ac-32ec8967e265" />
+
 > *Insight: High-spending customers react to delays with the same intensity as budget shoppers.*
 
 **2. The Geographic Risk Map**
