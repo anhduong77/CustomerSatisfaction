@@ -1,9 +1,9 @@
 # CustomerSatisfaction
 #  Olist Logistics Optimization: A Causal Inference Approach
 
-**Objective:** Isolate the true drivers of customer dissatisfaction in Brazilian E-Commerce to reduce churn.
-**Role:** Data Analyst / Causal Inference Specialist
-**Tools:** Python (EconPandas, Seaborn), SQL, CausalML(EconML)
+* **Objective:** Isolate the true drivers of customer dissatisfaction in Brazilian E-Commerce to reduce churn.
+* **Role:** Data Analyst / Causal Inference Specialist
+* **Tools:** Python (EconPandas, Seaborn), SQL, CausalML(EconML)
 
 ---
 
