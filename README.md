@@ -28,7 +28,10 @@ Using **Causal Inference** (to control for confounders like Price, Freight, and 
 > *Insight: High-spending customers react to delays with the same intensity as budget shoppers.*
 
 **2. The Geographic Risk Map**
-> *[Insert your SP vs. RJ Bar Chart]*
+> <img width="846" height="661" alt="Untitled" src="https://github.com/user-attachments/assets/0ddcba47-6e9f-4bc8-9175-c7b8165bac7f" />
+<img width="700" height="463" alt="Untitled" src="https://github.com/user-attachments/assets/6e9fbc74-784e-4ada-aa2f-f176047fc878" />
+
+
 > *Insight: Urban congestion in Rio drives higher dissatisfaction than long-distance shipping to remote regions.*
 
 ---
@@ -49,19 +52,17 @@ This repository is organized into 4 logical steps, mirroring the data pipeline:
 
 | Step | Notebook/File | Description |
 | :--- | :--- | :--- |
-| **1. Engineering** | `01_data_extraction.sql` | **Data Extraction:** Complex SQL queries to join Orders, Payments, and Geolocation data, creating a unified analytical view. |
-| **2. Diagnostics** | `02_eda_diagnostics.ipynb` | **Exploratory Analysis:** Assessing data quality, handling missing values in the pre-2013 vintage, and identifying distribution errors. |
-| **3. Preparation** | `03_feature_engineering.ipynb` | **Cleaning & Engineering:** Creating the "Treatment" (`is_late`) and "Confounders" (`distance_km`, `freight_ratio`) required for the Causal Model. |
-| **4. Analysis** | `04_causal_inference.ipynb` | **Modeling & Storytelling:** Running the `DoWhy` Causal Model, calculating ATE (Average Treatment Effect), and generating the final business insights. |
+| **1. Engineering** | `1.Engineering_data.ipynb` | **Data Extraction:** Complex SQL queries to join Orders, Payments, and Geolocation data, creating a unified analytical view. |
+| **2. EDA** | `2_EDA.ipynb` | **Exploratory Analysis:** Assessing data quality and identifying distribution errors. |
+| **3. Preparation** | `3_Cleaning_data_&&_feature_engineering.ipynb` | **Cleaning & Engineering:** Creating the "Treatment" (`is_late`) and "Confounders" (`distance_km`) required for the Causal Model. |
+| **4. Analysis** | `4_Casual_inference_&&_data_storytelling.ipynb` | **Modeling & Storytelling:** Running the `DoWhy` Causal Model, calculating ATE (Average Treatment Effect), and generating the final business insights. |
 
 ---
 
 ##  Installation & Usage
 
 1. Clone this repo.
-2. Install requirements: `pip install seaborn pandas`
-3. Run the notebooks in order.
+2. Run the notebooks in order.
 
 ---
-*Author: [Your Name]*
-*Connect on LinkedIn: [Your Link]*
+*Author: Ngô Thị Ánh Dương*
