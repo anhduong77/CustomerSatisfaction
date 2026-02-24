@@ -43,12 +43,16 @@ Based on the causal analysis, I proposed a 3-point action plan to stakeholders:
 1.  **Product (Algorithmic Padding):** Update the ETA prediction engine to add a **+2 Day Safety Buffer** specifically for the Rio de Janeiro capital region to align customer expectations with operational reality.
 2.  **Operations (Last Mile):** Diversify the carrier mix for "Urban Hell" zones, shifting volume from trucks to motorcycle couriers to bypass congestion.
 3.  **Strategy (Universal Standard):** Abandon the proposed "Tiered VIP Shipping" program and reallocate resources to systemic fixes, as data proves reliability is a hygiene factor for all segments.
+ 
+---
+## Monitoring Dashboard
+Finally, I make a monitoring dashboard with key important metrics in e-commerce domain like GMV, AOV, MOM and YOY:
+<img width="1162" height="652" alt="image" src="https://github.com/user-attachments/assets/d0c3a118-f95d-40e2-9eed-2762d4d9c101" />
 
 ---
-
 ##  Project Structure & Workflow
 
-This repository is organized into 4 logical steps, mirroring the data pipeline:
+This repository is organized into 5 logical steps, mirroring the data pipeline:
 
 | Step | Notebook/File | Description |
 | :--- | :--- | :--- |
@@ -56,6 +60,7 @@ This repository is organized into 4 logical steps, mirroring the data pipeline:
 | **2. EDA** | `2_EDA.ipynb` | **Exploratory Analysis:** Assessing data quality and identifying distribution errors. |
 | **3. Preparation** | `3_Cleaning_data_&&_feature_engineering.ipynb` | **Cleaning & Engineering:** Creating the "Treatment" (`is_late`) and "Confounders" (`distance_km`) required for the Causal Model. |
 | **4. Analysis** | `4_Casual_inference_&&_data_storytelling.ipynb` | **Modeling & Storytelling:** Running the `EconML` Causal Model, calculating ATE (Average Treatment Effect), and generating the final business insights. |
+|**5. Dashboard**| `dashboard`|**Monitoring business performance**: Using power bi to create dashboard with key metrics.|
 
 ---
 
