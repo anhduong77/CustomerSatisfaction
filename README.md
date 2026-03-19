@@ -49,6 +49,15 @@ Based on the causal analysis, I proposed a 3-point action plan to stakeholders:
 Finally, I make a monitoring dashboard with key important metrics in e-commerce domain like GMV, AOV, MOM and YOY:
 <img width="1162" height="652" alt="image" src="https://github.com/user-attachments/assets/d0c3a118-f95d-40e2-9eed-2762d4d9c101" />
 
+Another version of dashboard is created for web monitoring 
+<img width="1832" height="932" alt="Screenshot from 2026-03-19 19-48-50" src="https://github.com/user-attachments/assets/f9a47419-1bf0-4f4f-a488-90e1061b4303" />
+
+with interactive version
+
+<img width="1832" height="932" alt="Screenshot from 2026-03-19 19-49-08" src="https://github.com/user-attachments/assets/a40bdb46-7c4f-48ad-8a83-51366eb5b56c" />
+
+
+
 ---
 ##  Project Structure & Workflow
 
